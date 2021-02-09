@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculator {
 	private double result = 0;
 	
-	Calculator() {
+	public Calculator() {
 		System.out.println("Welcome to the Simple Java Calculator!");
 		Scanner sc = new Scanner(System.in);
 		
@@ -39,7 +39,7 @@ public class Calculator {
 		sc.close();
 	}
 	
-	void printResult() {
+	public void printResult() {
 		System.out.println("\nThe result is: " + result);
 	}
 	
