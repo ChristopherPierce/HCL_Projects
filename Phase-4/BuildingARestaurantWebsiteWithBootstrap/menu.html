@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ming’s Diner - Menu</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap Core + jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <style>
+        footer {
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+        }
+
+        footer .container {
+            margin-top: 0;
+        }
+
+        .container {
+            margin-top: 50px
+        }
+
+        .product-grid2 {
+            font-family: 'Open Sans', sans-serif;
+            position: relative
+        }
+
+        .product-grid2 .product-image2 {
+            overflow: hidden;
+            position: relative
+        }
+
+        .product-grid2 .product-image2 a {
+            display: block
+        }
+
+        .product-grid2 .product-image2 img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product-image2 .pic-1 {
+            opacity: 1;
+            transition: all .5s
+        }
+
+        .product-grid2:hover .product-image2 .pic-1 {
+            opacity: 0
+        }
+
+        .product-grid2 .product-content {
+            padding: 20px 10px;
+            text-align: center
+        }
+
+        .product-grid2 .title {
+            font-size: 17px;
+            margin: 0 0 7px
+        }
+
+        .product-grid2 .title a {
+            color: #303030
+        }
+
+        .product-grid2 .title a:hover {
+            color: #3498db
+        }
+
+        .product-grid2 .price {
+            color: #303030;
+            font-size: 15px
+        }
+
+        @media screen and (max-width:990px) {
+            .product-grid2 {
+                margin-bottom: 30px
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ming's Diner</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-secondary py-5 mb-5">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-12">
+                    <h1 class="display-4 text-white mt-5 mb-2">Ming's Diner</h1>
+                    <p class="lead mb-5 text-white-50">We offer Authentic-Style Mexican Tacos! Best in SA! Stop by and
+                        try our delicious street tacos, burritos,
+                        and more!</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="product-grid2">
+                    <div class="product-image2"> <a href="#"> <img class="pic-1" src="img/taco.jpg"> </a>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Street Tacos</a></h3> <span class="price">$5.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="product-grid2">
+                    <div class="product-image2"> <a href="#"> <img class="pic-1" src="img/burrito.jpg"> </a>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Burritos</a></h3> <span class="price">$4.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="product-grid2">
+                    <div class="product-image2"> <a href="#"> <img class="pic-1" src="img/quesadilla.jpg"> </a>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Quesadillas</a></h3> <span class="price">$4.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Ming's Diner 2021</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
